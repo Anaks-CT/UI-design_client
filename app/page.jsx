@@ -1,5 +1,5 @@
 
-import "./page.css";
+import "./Page.css";
 
 
 import CallToAction from "../components/callToActions/CallToAction";
