@@ -1,3 +1,5 @@
+"use client"
+
 import "./SignupForm.css";
 
 import Button from "../UI/Button";
