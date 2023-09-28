@@ -1,0 +1,85 @@
+/* banner */
+
+#banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 525px;
+    background: url("../../assets/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media (max-width: 968px) {
+    #banner {
+      height: 325px;
+      background-size: 125%;
+      padding: 0 !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #banner {
+      height: 185px;
+      background-size: 145%;
+      padding: 0 !important;
+    }
+  }
+  
+  
+  /* emoji banner */
+  
+  #emoji-banner {
+    width: 100%;
+    height: 1600px;
+    background: url("../../assets/emojiBanner.svg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #emoji-banner-gradient {
+    width: 798px;
+    height: 798px;
+    position: absolute;
+    box-shadow: 0px 0px 500px;
+    border-radius: 9999px;
+    filter: blur(700px);
+    z-index: -3;
+  }
+  
+  @media (max-width: 768px) {
+    #emoji-banner {
+      height: 750px;
+      background-position: center;
+    background-size: 80%;
+    }
+  
+    #emoji-banner-gradient {
+      width: 79px;
+      height: 79px;
+      box-shadow: 0px 0px 200px;
+    }
+  
+    #emoji-banner > h2 {
+      font-size: 20px;
+    }
+  
+    #emoji-banner > div {
+      padding: 0px 50px;
+    }
+  
+    #emoji-banner > div > h4 {
+      font-size: 13px;
+    }
+  
+    #emoji-banner > div > h4 > span {
+      font-size: 19px;
+    }
+  }

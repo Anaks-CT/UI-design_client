@@ -1,0 +1,40 @@
+/* Call to action */
+
+#call-to-action_container {
+  background: url("../../assets/callToAction.svg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(43, 21, 78, 0.8) 0px 50px 250px -20px,
+    #191919 0px 30px 90px -30px;
+  height: 678px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+#call-to-action_content_Wrapper {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  #call-to-action_container {
+    height: 288px;
+    background-size: 700px;
+  }
+  #call-to-action_content_Wrapper > h4 {
+    font-size: 12px;
+  }
+
+  #call-to-action_content_Wrapper > h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .button-wrapper {
+    width: 65px;
+  }
+}
